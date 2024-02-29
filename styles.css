@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Mudando a fonte para Roboto ou outra fonte moderna */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ddd; /* Adicionando uma borda ao redor do container */
+    border-radius: 8px; /* Adicionando bordas arredondadas para um aspecto mais moderno */
+    padding: 20px; /* Adicionando algum espaço interno para melhorar o visual */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Adicionando cor de fundo */
+    color: white; /* Mudando a cor do texto para branco */
+    border: none; /* Removendo a borda do botão */
+    border-radius: 4px; /* Adicionando bordas arredondadas ao botão */
+    transition: background-color 0.3s; /* Adicionando transição de cor de fundo */
+}
+
+button:hover {
+    background-color: #45a049; /* Mudando a cor de fundo ao passar o mouse sobre o botão */
+}
